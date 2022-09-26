@@ -16,7 +16,7 @@ python toutiao_video_collection.py
 Before running the main script, you probably need to modify the **_cookie**[^note] variable with the most recent cookie that you can extract it from the video page you visted in browser > inspector tool > network 
 
 Below is the example screenshot when running the script:
-![Toutial scrape](dev_screenshots/github_toutiao_scrape_3.png)
+![Toutial scrape](dev_screenshots/github_toutiao_scrape.png)
 
 [^note]:
     WITHOUT the **_cookie**, when loading the video page in the python script, it will return the 'noscript' declaration instead of actual HTML content.
