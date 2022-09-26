@@ -14,9 +14,9 @@ The main scraping script you run is **toutiao_video_collection.py**
 python toutiao_video_collection.py
 ```
 
-[^note]
-[^1] Cookie
-you might change the variable **_cookie** that's same one as you saw in browser when you visited any video url.
+When running the main script, you probably need to change the **_cookie**[^note] variable fetching from your browser > inspector > network
+[^note] Cookie
+
 
 ## Required python libs
 ```
