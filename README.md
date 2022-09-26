@@ -1,5 +1,5 @@
 # toutiao_scrape
-A simple script does scraping video list from Toutiao (Toutiao or Jinri Toutiao is a Chinese news and information content platform, a core product of the China-based company ByteDance）
+A python script (python v3+) does scraping video list from Toutiao (Toutiao or Jinri Toutiao is a Chinese news and information content platform, a core product of the China-based company ByteDance）
 
 Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list such as HTML structure like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
 (you should catch the video list by viewing html source in browser, see below.)
@@ -28,7 +28,7 @@ pip install lxml
 
 ## Peformance
 Most of videos have been separated as video / audio files (i.e, extension .mp4 with video frames and extension .m4a with audio)
-after scraping the two video / audio files, ffmpeg does combine them as a single final video file as quite quickly using the method **c:v copy c:a copy**
+after scraping the two video / audio files, then [ffmpeg](https://ffmpeg.org/download.html) does combine them as a single final video file as quite quickly using the method **c:v copy c:a copy**
 the [moviepy](https://pypi.org/project/moviepy/) has ability to do same combination, but it's quite slowly, so it's not recommended in the use.
 
 # Warning
