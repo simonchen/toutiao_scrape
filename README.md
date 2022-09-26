@@ -13,7 +13,9 @@ The main scraping script you run is **toutiao_video_collection.py**
 ```
 python toutiao_video_collection.py
 ```
-### Cookie
+
+[^note]
+[^1 Cookie
 you might change the variable **_cookie** that's same one as you saw in browser when you visited any video url.
 
 ## Required python libs
