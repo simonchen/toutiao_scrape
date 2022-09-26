@@ -1,5 +1,5 @@
 # toutiao_scrape
-Scraping video list from Toutiao site
+## Scraping video list from Toutiao site
 Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
 (you should catch the video list by viewing html source in browser, see below.)
 
@@ -14,3 +14,13 @@ python toutiao_video_collection.py
 ```
 you might change the variable **_cookie** that's same one as you saw in browser when you visited any video url.
 
+## Required python libs
+```
+pip install simplejson
+pip install lxml
+```
+
+## Peformance
+Most of videos have been separated as video / audio files (i.e, extension .mp4 with video frames and extension .m4a with audio)
+after scraping the two video / audio files, ffmpeg does combine them as a single final video file as quite quickly using the method **c:v copy c:a copy**
+the [moviepy](https://pypi.org/project/moviepy/) has ability to do same combination, but it's quite slowly, it's not recommended.
