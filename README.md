@@ -4,6 +4,7 @@ Basically, you'll need to firstly prepare a static HTML file - **mid_school_grad
 (you should catch the video list by viewing html source in browser, see below.)
 
 ![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_1.png)
+![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_2.png)
 
 literally, the static html file name means a certain video list for the middle scholl grade 8 math, but you can put any video list written in HTML tagging format.
 
