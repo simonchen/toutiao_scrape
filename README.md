@@ -14,19 +14,10 @@ The main scraping script you run is **toutiao_video_collection.py**
 python toutiao_video_collection.py
 ```
 
-When running the main script, you probably need to change the **_cookie**[^note] variable fetching from your browser > inspector > network
-Here is a simple footnote[^1].
+Before running the main script, you probably need to modify the **_cookie**[^note] variable that you extract it from your browser > inspector tool > network (when you visited any video page)
 
-A footnote can also have multiple lines[^2].  
-
-You can also use words, to fit your writing style more closely[^note].
-
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
 [^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
+    WITHOUT the **_cookie**, when loading the video page in the python script, it will return the 'noscript' declaration instead of actual HTML content.
 
 
 ## Required python libs
