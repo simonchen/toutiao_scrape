@@ -9,8 +9,8 @@ Basically, you'll need to firstly prepare a static HTML file - **mid_school_grad
 literally, the static html file name means a certain video list for the middle scholl grade 8 math, but you can put any video list written in HTML tagging format.
 
 The main scraping script you run is **toutiao_video_collection.py**
-'''
+```
 python toutiao_video_collection.py
-'''
+```
 you might change the variable **_cookie** that's same one as you saw in browser when you visited any video url.
 
