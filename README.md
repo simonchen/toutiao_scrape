@@ -15,6 +15,10 @@ python toutiao_video_collection.py
 
 Before running the main script, you probably need to modify the **_cookie**[^note] variable with the most recent cookie that you can extract it from the video page you visted in browser > inspector tool > network 
 
+In addition, you should notice that there are two folders will be created automatically (if no existing)
+  - 'temp' folder: it saves the downloaded video / audio files 
+  - 'output' folder: it saves the final video file as the script processed.
+
 Below is the example screenshot when running the script:
 ![Toutial scrape](dev_screenshots/github_toutiao_scrape.png)
 
