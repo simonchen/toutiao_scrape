@@ -1,8 +1,8 @@
 # toutiao_scrape
 A python script (python v3+) does scraping video list from Toutiao (Toutiao or Jinri Toutiao is a Chinese news and information content platform, a core product of the China-based company ByteDance）
 
-Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list in HTML format that have structures like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
-(you should catch the video list by viewing html source in browser, also, please remember to save in **UTF-8** format for avoiding non-latin chars issue, see below.)
+Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list content written in HTML format that have structures like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
+(you should catch the video list by viewing html source in browser, also, please remember to save the HTML content in **UTF-8** charset for avoiding non-latin chars issue, see below.)
 
 ![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_1.png)![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_2.png)
 
