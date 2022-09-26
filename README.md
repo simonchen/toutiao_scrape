@@ -4,7 +4,7 @@ A python script (python v3+) does scraping video list from Toutiao (Toutiao or J
 Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list such as HTML structure like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
 (you should catch the video list by viewing html source in browser, see below.)
 
-<img src="dev_screenshots/github_toutiao_scrape_1.png" alt="How to capture the video list by the inspector in browser" style="width:50% !important;height:50% !important;" />
+![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_1.png)
 
 ![How to capture the video list by the inspector in browser](dev_screenshots/github_toutiao_scrape_2.png)
 
