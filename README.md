@@ -17,7 +17,7 @@ Before running the main script, you probably need to modify the **_cookie**[^not
 
 In addition, you should notice that there are two folders will be created automatically (if no existing)
   - 'temp' folder: it saves the downloaded video / audio files 
-  - 'output' folder: it saves the final video file as the script processed.
+  - 'output' folder: it saves the final video file that the script has finished the combination of video/audio.
 
 Below is the example screenshot when running the script:
 ![Toutial scrape](dev_screenshots/github_toutiao_scrape.png)
