@@ -13,7 +13,7 @@ The main scraping script you run is **toutiao_video_collection.py**
 python toutiao_video_collection.py
 ```
 
-Before running the main script, you probably need to modify the **_cookie**[^note] variable with the most recent cookie that you can extract it from the video page you visted in browser > inspector tool > network 
+Before running the main script, you should re-assign the variable - **_cookie**[^note] fetched from the video page you visted in browser > inspector tool > network 
 
 In addition, you should notice that there are two folders will be created automatically (if no existing)
   - 'temp' folder: it saves the downloaded video / audio files 
