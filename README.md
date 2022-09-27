@@ -1,5 +1,5 @@
 # toutiao_scrape
-A python script (python v3+) does scraping video list from Toutiao (Toutiao or Jinri Toutiao is a Chinese news and information content platform, a core product of the China-based company ByteDance）
+A python script (python 3+) does scraping video list from Toutiao (Toutiao or Jinri Toutiao is a Chinese news and information content platform, a core product of the China-based company ByteDance）
 
 Basically, you'll need to firstly prepare a static HTML file - **mid_school_grade8_math.htm** that contains the video list content written in HTML format that have structures like &lt;div class="detail-feed-video-item"&gt;...&lt;/div&gt;
 (you should catch the video list by viewing html source in browser, also, please remember to save the HTML content in **UTF-8** charset for avoiding non-latin chars issue, see below.)
@@ -13,7 +13,7 @@ The main scraping script you run is **toutiao_video_collection.py**
 python toutiao_video_collection.py
 ```
 
-Before running the main script, you should re-assign the variable - **_cookie**[^note] fetched from the video page you visted in browser > inspector tool > network 
+Before running the main script, you probabaly need to re-assign the variable - **_cookie**[^note] that have fetched from any video page you visted in browser > inspector tool > network 
 
 In addition, you should notice that there are two folders will be created automatically (if no existing)
   - 'temp' folder: it saves the downloaded video / audio files 
