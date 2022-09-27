@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
 # Name:        Scraping videos on Toutiao
-# Purpose:
+# Purpose:     Scraping videos on Toutiao
 #
 # Author:      chen
 #
 # Created:     24/09/2022
 # Copyright:   (c) chen 2022
-# Licence:     <your licence>
 #-------------------------------------------------------------------------------
 import os, sys, time, subprocess, re, urllib, urllib.request
 import simplejson
