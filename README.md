@@ -35,7 +35,8 @@ pip install lxml
 ## Peformance
 Most of videos have been separated as video / audio files (i.e, extension .mp4 with video frames and extension .m4a with audio)
 after scraping the two video / audio files, then [ffmpeg](https://ffmpeg.org/download.html) does combine them as a single final video file as quite quickly using the method **c:v copy c:a copy**
-the [moviepy](https://pypi.org/project/moviepy/) has ability to do same combination, but it's quite slowly, so it's not recommended in the use.
+
+although, the [moviepy](https://pypi.org/project/moviepy/) has ability to do same combination, but it's quite slowly, so it's not recommended in the use.
 
 # Warning
 You can use the codes for free for personal purpose only, you will be responsible for any legal suit in commercial usage.
